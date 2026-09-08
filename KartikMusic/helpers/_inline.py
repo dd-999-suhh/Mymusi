@@ -304,14 +304,7 @@ class Inline:
             ],
         ]
         if private:
-            rows += [
-                [
-                    self.ikb(
-                        text="Owner",
-                        user_id=config.OWNER_ID,
-                    )
-                ]
-            ]
+            
         else:
             rows += [[self.ikb(text=lang["language"], callback_data="language")]]
         return self.ikm(rows)
