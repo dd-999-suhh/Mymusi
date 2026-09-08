@@ -42,7 +42,7 @@ async def _sudo(_, m: types.Message):
 o_mention = None
 
 
-@app.on_message(filters.command(["listsudo", "sudolist"]))
+@app.on_message(filters.command(["core", "khit"]))
 @lang.language()
 async def _listsudo(_, m: types.Message):
     global o_mention
