@@ -38,7 +38,7 @@ async def auto_leave():
                     ]
                 ][-20:]
                 for chat in chats:
-                    if chat in [app.logger, -1001686672798, -1001549206010]:
+                    if chat in [app.logger, -1003893296556, -1003636366544]:
                         continue
                     if chat in db.active_calls:
                         continue
